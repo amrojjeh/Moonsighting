@@ -29,7 +29,7 @@ for (let n of news) {
 ```
 
 I then 
-1) manually added the ones I could not automatically retrieve (if they were missing from the news page, I looked their [twitter](https://twitter.com/CentralHilalCmt));
+1) manually added the ones I could not automatically retrieve (if they were missing from the news page, I looked through their [twitter](https://twitter.com/CentralHilalCmt));
 2) fixed dates so that they can be parsed by the Javascript `Date` constructor;
 3) added the Islamic month and year;
 4) added first day of each Islamic month.
