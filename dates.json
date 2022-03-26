@@ -1,0 +1,35 @@
+// First sighting is 1433 Muharram.
+"dates": [
+	{
+		"date": "August 10, 2021",
+		"sighted": false,
+	},
+	{
+		"date": "September 8, 2021",
+		"sighted": true,
+	},
+	{
+		"date": "October 8, 2021",
+		"sighted": false,
+	},
+	{
+		"date": "November 6, 2021",
+		"sighted": true,
+	},
+	{
+		"date": "December 6, 2021",
+		"sighted": false,
+	},
+	{
+		"date": "January 4, 2022",
+		"sighted": true,
+	},
+	{
+		"date": "February 3, 2022",
+		"sighted": false,
+	},
+	{
+		"date": "March 4, 2022",
+		"sighted": true,
+	},
+]
