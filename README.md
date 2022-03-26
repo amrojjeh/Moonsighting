@@ -3,11 +3,12 @@
 Data is retreived from [Central Hilal Committee of North America](https://hilalcommittee.org).
 
 ## How Data Was Retrieved
-I ran this piece of Javascript code on the [news](https://hilalcommittee.org/news) website:
+I ran this piece of Javascript code on the [news](https://hilalcommittee.org/news) website after loading all the news:
 
 ```javascript
 let news = document.getElementById("news_area");
 let regex = /(((January|Jan|February|Feb|March|April|May|June|July|August|Aug|September|Sept|October|Oct|November|Nov|December|Dec)\s*\d+(st|rd|th)*,*\s*\d{4})|(\d+(st|rd|th)*\s(January|Jan|February|Feb|March|April|May|June|July|August|Aug|September|Sept|October|Oct|November|Nov|December|Dec)\s+\d{4}))/;
+
 for (let n of news) {
 	if (n.innerText.toLowerCase().includes("sighted")) {
 		let sighting = {};
@@ -19,9 +20,9 @@ for (let n of news) {
 		sighting.date = matches[0];
 		if (n.innerText.toLowerCase().includes("not")) {
 			sighting.sighted = false;
-    } else {
+		} else {
 			sighting.sighted = true;
-    }
+		}
 		sightings.push(sighting);
 	}
 }
