@@ -36,4 +36,4 @@ I then
 
 Steps three and four were done using automation.
 
-Sightings after March 3rd, 2022 will be entered manually.
+Sightings after March 3rd, 2022 should be entered manually.
