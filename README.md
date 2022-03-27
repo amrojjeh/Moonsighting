@@ -34,6 +34,6 @@ I then
 3) added the Islamic month and year;
 4) added first day of each Islamic month.
 
-Steps three and four were done using automation.
+Steps two, three and four were done using automation.
 
 Sightings after March 3rd, 2022 should be entered manually.
