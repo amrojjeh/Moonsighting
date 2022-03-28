@@ -8,6 +8,7 @@ I ran this piece of Javascript code on the [news](https://hilalcommittee.org/new
 ```javascript
 let news = document.getElementById("news_area");
 let regex = /(((January|Jan|February|Feb|March|April|May|June|July|August|Aug|September|Sept|October|Oct|November|Nov|December|Dec)\s*\d+(st|rd|th)*,*\s*\d{4})|(\d+(st|rd|th)*\s(January|Jan|February|Feb|March|April|May|June|July|August|Aug|September|Sept|October|Oct|November|Nov|December|Dec)\s+\d{4}))/;
+let sightings = [];
 
 for (let n of news) {
 	if (n.innerText.toLowerCase().includes("sighted")) {
