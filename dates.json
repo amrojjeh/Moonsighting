@@ -1,5 +1,13 @@
 [
   {
+    "sighting_date": "2022-06-29",
+    "sighted": true,
+    "month": 11,
+    "year": 1443,
+    "month_name": "Dhu al-Hijjah",
+    "first_day": "2022-06-30",
+  },
+  {
     "sighting_date": "2022-05-30",
     "sighted": false,
     "month": 10,
